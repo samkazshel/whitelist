@@ -5,7 +5,7 @@
 # Created by Anudeep (Slight change by cminion)
 #================================================================================
 TICK="[\e[32m ✔ \e[0m]"
-PIHOLE_LOCATION="/etc/pihole"
+PIHOLE_LOCATION="/srv/dev-disk-by-label-PiNas/Config/etc/etc-pihole"
 GRAVITY_UPDATE_COMMAND="pihole -w -q"
 
 echo -e " \e[1m This script will download and add domains from the repo to whitelist.txt \e[0m"
