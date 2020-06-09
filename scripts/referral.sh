@@ -5,7 +5,7 @@
 # Created by Anudeep
 #================================================================================
 TICK="[\e[32m ✔ \e[0m]"
-PIHOLE_LOCATION="/etc/pihole"
+PIHOLE_LOCATION="/srv/dev-disk-by-label-PiNas/Config/etc/etc-pihole"
 GRAVITY_UPDATE_COMMAND="pihole -w -q"
 echo -e " \e[1m This file contains tracking and adserving domains. Run this script if you use specific service (like Slickdeals and Fatwallet etc.) that require certain adserving domains to be whitelisted. If you don't know what these services are, stay away from this list.  \e[0m"
 read -p "Do you want to continue (Y/N)? " -n 1 -r
